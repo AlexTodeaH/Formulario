@@ -1,0 +1,222 @@
+* {
+  text-decoration: none;
+}
+a {
+  color: white;
+  font-family: 'Dosis',Verdana;
+  font-size: 12px;
+}
+/* HEADER */
+header {
+  background-color: #0d1321;
+}
+header h1 {
+  font-size: 3em;
+  color: #fae22f;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Lalezar', Verdana;
+}
+header nav {
+  margin-bottom: 10px;
+}
+header nav .menu__list ul {
+  list-style-type: none;
+  margin-left: -60px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fae22f;
+}
+header nav .menu__list li {
+  float: left;
+}
+header nav .menu__list li a {
+  transition: all .5s linear;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  color: #0d1321;
+  text-decoration: none;
+  letter-spacing: 1.655px;
+  padding: 12px 18.55px 14px 18.55px;
+  background: linear-gradient(to right, #0d1321 40%, #fae22f 100%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 80%;
+}
+header nav .menu__list li a:hover:not(.active) {
+  background-size: 100% 2px;
+}
+header nav .menu__list .active {
+  background-color: #0d1321;
+  color: #fae22f;
+  border-left: 2px solid #fae22f;
+}
+header .usuario {
+  padding-top: 20px;
+  font-family: 'Dosis';
+  letter-spacing: 0.5px;
+}
+header .usuario a {
+  padding-left: 15px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+#logOut {
+  cursor: pointer;
+}
+header .ayuda {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+header .ayuda * {
+  padding-left: 5px;
+}
+header .buscar {
+  margin-top: 20px;
+}
+
+header .buscar input {
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+/* ACTIVIDADES EXTREMAS */
+#actExt {
+  margin-top: 40px;
+  text-align: center;
+  font-family: Verdana;
+}
+#actExt figure img {
+  margin-top: 10px;
+}
+#actExt figure .imagen {
+  position: relative;
+  width: 100%;
+}
+#actExt figure .imagen article {
+  position: absolute;
+  top: 15px;
+  right: -20px;
+  color: white;
+}
+#actExt figure .imagen article h2 {
+  color: #6e6e6e;
+  font-size: 24px;
+  padding-left: 20px;
+}
+#actExt figure .imagen article p {
+  color: #6e6e6e;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+#actExt figure .imagen article input {
+  margin-left: 30px;
+  width: 150px;
+  height: 70px;
+}
+/*   PROMOCIONES    */
+
+section {
+  text-align: center;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+section h2 {
+  margin-top: 160px;
+  margin-bottom: 60px;
+  font-size: 2.2em;
+  font-family: 'Dosis';
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+section .flecha {
+  width: 30px;
+  height: 40px;
+}
+section img {
+  width: 230px;
+  height: 250px;
+  margin:15px;
+}
+
+/* BOXEO */
+
+
+.boxeo h2,.descenso h2 {
+  font-family: 'Dosis';
+  font-size: 2em;
+  letter-spacing: 5px;
+  font-weight: initial;
+  margin-top:90px;
+}
+
+.boxeo p {
+  float:right;
+  letter-spacing: 1.5px;
+  font-family: Verdana;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.boxeo img {
+  margin-top:30px;
+}
+
+/* DESCENSO */
+
+.descenso p {
+  float:left;
+  letter-spacing: 1.5px;
+  font-family: Verdana;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.descenso img {
+  margin-top:100px;
+}
+
+.descenso h2 {
+  margin-top:150px;
+}
+
+/* LINEA GRIS */
+.linea {
+  margin-top: 60px;
+  height: 2px;
+  background-color: #6e6e6e;
+}
+/*   REDES SOCIALES    */
+figure {
+  text-align: center;
+  height: 100px;
+}
+figure a img {
+  padding-top: 50px ;
+}
+/* PIE DE PAGINA */
+footer {
+  height: 42px;
+  background-color: #0d1321;
+  color: white;
+  text-align: center;
+  margin-top:40px;
+}
+footer ul {
+  list-style: none;
+  padding-top: 17px;
+  padding-left: 11%;
+  font-size: 14px;
+}
+footer ul li a {
+  list-style: none;
+  float: left;
+  font-family: Verdana;
+}
+
